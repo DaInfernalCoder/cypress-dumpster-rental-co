@@ -1,0 +1,104 @@
+:root{--navy:#17262f;--navy2:#22363f;--orange:#ee6a1f;--orange-d:#c9540f;--cream:#f7f2e8;--steel:#dfe6e8;--ink:#17262f;--muted:#4d5d66;--line:#cfd6d2}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--cream);color:var(--ink);font:18px/1.6 "Iowan Old Style",Georgia,serif;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3,.brand-text,.btn,.eyebrow,.ticket,.mobile-bar,.nav-link{font-family:"Avenir Next Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif}
+.skip{position:absolute;left:-999px;top:0;background:var(--orange);color:#fff;padding:.7rem 1rem;z-index:100}
+.skip:focus{left:0}
+.site-header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:.75rem 5%;background:var(--navy);color:#fff;border-bottom:3px solid var(--orange)}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:#fff}
+.logo{width:46px;height:46px;flex:none}
+.brand-text{display:flex;flex-direction:column;font-weight:800;font-size:1.5rem;line-height:1;letter-spacing:.02em;text-transform:uppercase}
+.brand-text small{font-size:.7rem;font-weight:600;letter-spacing:.14em;color:#c9d4d8;margin-top:.25rem}
+.site-nav{display:flex;align-items:center;gap:1.4rem}
+.nav-link{color:#fff;text-decoration:none;font-weight:600;font-size:1rem;letter-spacing:.03em;text-transform:uppercase}
+.nav-link:hover{color:var(--orange)}
+.btn{display:inline-block;text-decoration:none;font-weight:800;font-size:1rem;line-height:1.1;letter-spacing:.04em;text-transform:uppercase;padding:.9rem 1.25rem;border:2px solid transparent;border-radius:2px;text-align:center}
+.btn-call{background:var(--orange);color:#fff;border-color:var(--orange)}
+.btn-call:hover{background:var(--orange-d);border-color:var(--orange-d)}
+.btn-ghost{background:transparent;color:#fff;border-color:#a9bbc2}
+.btn-ghost:hover{border-color:#fff}
+.btn-lg{padding:1.15rem 1.6rem;font-size:1.1rem}
+.hero .btn-ghost{color:var(--navy);border-color:var(--navy)}
+.hero .btn-ghost:hover{background:var(--navy);color:#fff}
+.btn-ghost-dark{background:transparent;color:var(--navy);border-color:var(--navy)}
+.btn-ghost-dark:hover{background:var(--navy);color:#fff}
+.hero{display:grid;grid-template-columns:1fr 1.05fr;gap:3.5rem;align-items:center;padding:4.5rem 5% 5rem;max-width:1400px;margin:0 auto}
+.eyebrow{margin:0 0 .8rem;font-weight:800;font-size:.9rem;letter-spacing:.16em;text-transform:uppercase;color:var(--orange-d)}
+h1{margin:0 0 1.2rem;font-size:clamp(2.8rem,6vw,5.4rem);line-height:.96;font-weight:800;letter-spacing:-.01em;text-transform:uppercase}
+h2{margin:0 0 1rem;font-size:clamp(2rem,4vw,3.3rem);line-height:1;font-weight:800;text-transform:uppercase;letter-spacing:-.005em}
+h3{margin:.2rem 0 .5rem;font-size:1.45rem;line-height:1.1;font-weight:800;text-transform:uppercase}
+.lede{font-size:1.25rem;max-width:34rem;color:var(--muted)}
+.actions{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.8rem 0 1.2rem}
+.fine{font-size:.9rem;color:var(--muted)}
+.center{text-align:center}
+.hero-visual{position:relative}
+.hero-visual figure{margin:0;background:var(--navy)}
+.hero-visual img{aspect-ratio:16/10;object-fit:cover;width:100%}
+figcaption{font:12px/1.4 Arial,sans-serif;color:#c9d4d8;padding:.55rem .9rem}
+.ticket{position:absolute;left:-2.2rem;bottom:-2.2rem;width:min(320px,80%);background:#fff;color:var(--ink);padding:1.1rem 1.3rem 1.2rem;border:2px dashed var(--navy);box-shadow:8px 8px 0 var(--orange)}
+.ticket-title{margin:0 0 .6rem;font-weight:800;font-size:1.2rem;text-transform:uppercase;letter-spacing:.04em;display:flex;justify-content:space-between;align-items:baseline;gap:.5rem}
+.ticket-title span{font-size:.65rem;letter-spacing:.14em;color:var(--orange-d)}
+.ticket dl{margin:0}
+.ticket dl div{display:grid;grid-template-columns:5.2rem 1fr;gap:.5rem;padding:.4rem 0;border-top:1px solid var(--line);font-size:.88rem;line-height:1.3}
+.ticket dt{font:800 .7rem/1.5 "Avenir Next Condensed","Arial Narrow",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.ticket dd{margin:0}
+.band{background:var(--navy);color:#fff;padding:1.6rem 5%;text-align:center}
+.band p{margin:0 auto;max-width:56rem;font-size:1.15rem}
+.band strong{color:var(--orange);font-family:"Avenir Next Condensed","Arial Narrow",Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em}
+.section{padding:5.5rem 5%;max-width:1400px;margin:0 auto}
+.section-head{max-width:46rem;margin-bottom:2.5rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+.card img{aspect-ratio:4/3;object-fit:cover;width:100%;margin-bottom:1rem;border-bottom:4px solid var(--orange)}
+.card p{margin:0;color:var(--muted)}
+.dark{max-width:none;background:var(--navy2);color:#fff;padding-left:max(5%,calc((100% - 1300px)/2));padding-right:max(5%,calc((100% - 1300px)/2))}
+.dark .eyebrow{color:#ffa56b}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem}
+.steps li{display:flex;gap:1.1rem}
+.steps span{flex:none;width:3rem;height:3rem;display:grid;place-items:center;background:var(--orange);color:#fff;font:800 1.6rem/1 "Avenir Next Condensed","Arial Narrow",Arial,sans-serif}
+.steps p{margin:0;color:#d4dee2}
+.narrow{max-width:920px}
+details{border-top:2px solid var(--navy);padding:1.2rem 0}
+details:last-of-type{border-bottom:2px solid var(--navy)}
+summary{cursor:pointer;font:800 1.2rem/1.3 "Avenir Next Condensed","Arial Narrow",Arial,sans-serif;text-transform:uppercase;letter-spacing:.03em}
+details p{margin:.7rem 0 0;color:var(--muted)}
+.final{background:var(--orange);color:var(--navy);text-align:center;padding:5rem 5%}
+.final h2{margin-bottom:.5rem}
+.final p{font-size:1.2rem;margin:0}
+.center-actions{justify-content:center}
+.final .btn-call{background:var(--navy);border-color:var(--navy);color:#fff}
+.final .btn-call:hover{background:#000;border-color:#000}
+.site-footer{background:var(--navy);color:#dfe6e8;padding:2.5rem 5%;display:flex;flex-wrap:wrap;justify-content:space-between;gap:1.5rem;font:15px/1.5 Arial,sans-serif}
+.site-footer p{margin:.2rem 0 0}
+.site-footer strong{color:#fff}
+.foot-links{display:flex;gap:1.5rem;align-items:flex-start}
+.credits{flex-basis:100%;font-size:12px;color:#9fb0b7}
+.mobile-bar{display:none}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.site-header :focus-visible{outline-color:#fff}
+@media(max-width:1000px){
+  .hero{grid-template-columns:1fr;gap:3rem;padding-top:3rem}
+  .ticket{left:1rem;bottom:-2rem}
+  .hero-visual{margin-bottom:2rem}
+  .cards,.steps{grid-template-columns:1fr}
+  .nav-link{display:none}
+}
+@media(max-width:640px){
+  body{font-size:17px}
+  .site-header{padding:.6rem 4%}
+  .logo{width:38px;height:38px}
+  .brand-text{font-size:1.15rem}
+  .brand-text small{font-size:.58rem}
+  .site-nav .btn{display:none}
+  .section{padding:3.5rem 5%}
+  .ticket{position:relative;left:0;bottom:0;width:100%;margin-top:1.2rem;box-shadow:5px 5px 0 var(--orange)}
+  .hero-visual{margin-bottom:0}
+  .site-footer{padding-bottom:6rem}
+  .mobile-bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -2px 10px rgba(0,0,0,.25)}
+  .mobile-bar a{flex:1.3;text-align:center;padding:1rem;text-decoration:none;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+  .mb-call{background:var(--orange);color:#fff}
+  .mb-book{flex:1!important;background:var(--navy);color:#fff}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

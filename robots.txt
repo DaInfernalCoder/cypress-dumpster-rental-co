@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cypresstxdumpsterrental.shop/sitemap.xml

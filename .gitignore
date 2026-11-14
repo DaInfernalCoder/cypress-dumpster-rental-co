@@ -1,0 +1,5 @@
+.vercel
+.env*
+node_modules
+registration-state.json
+.DS_Store

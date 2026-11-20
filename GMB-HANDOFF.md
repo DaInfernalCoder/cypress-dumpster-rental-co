@@ -12,5 +12,5 @@ Links: https://github.com/DaInfernalCoder/cypress-dumpster-rental-co · https://
 
 Status
 - Done: GHL number + IVR, registries, site, GitHub, Vercel prod READY, apex+www attached, domain registered, nameservers saved, GMB pack, queued at gmbreview.shop/make (unassigned, no account capacity).
-- Done: public DNS/HTTPS live on custom domain (apex+www, verified 2026-11-14, re-verified live 2026-11-15 and 2026-11-18 via check_live.py; NS=ns1/ns2.vercel-dns.com).
+- Done: public DNS/HTTPS live on custom domain (apex+www, verified 2026-11-14, re-verified live 2026-11-15, 2026-11-18 and 2026-11-20 via check_live.py; NS=ns1/ns2.vercel-dns.com).
 - Pending: GeoStamp address sync not done; no GBP created; Search Console TXT token.

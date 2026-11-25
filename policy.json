@@ -1,0 +1,60 @@
+{
+  "config": {
+    "redirects": [
+      {
+        "source": "/:path*",
+        "has": [
+          {
+            "type": "host",
+            "value": "www.cypresstxdumpsterrental.shop"
+          }
+        ],
+        "destination": "https://cypresstxdumpsterrental.shop/:path*",
+        "permanent": true
+      }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.cypresstxdumpsterrental.shop",
+      "apexName": "cypresstxdumpsterrental.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "cypresstxdumpsterrental.shop",
+      "apexName": "cypresstxdumpsterrental.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/favicon.svg",
+    "/index.html",
+    "/media/cleanout.webp",
+    "/media/debris.webp",
+    "/media/hero-1600.webp",
+    "/media/hero-800.webp",
+    "/media/renovation.webp",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/style.css"
+  ]
+}

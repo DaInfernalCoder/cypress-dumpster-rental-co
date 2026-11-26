@@ -10,3 +10,4 @@ node_modules
 /SOURCES.md
 /.gitignore
 /GMB-HANDOFF.md
+.github
